@@ -6,14 +6,14 @@
 ## *Headings*
 
 | Markdown | HTML | Rendered Output |
-|-|-|-|
+|---|---|---|
 | `# Heading level 1` | `<h1>Heading level 1</h1>` | <h1>Heading level 1</h1> |
 | `## Heading level 2` | `<h2>Heading level 2</h2>` | <h2>Heading level 1</h2> |
 
 ## *Alternate Syntax*
 
 | Markdown | HTML | Rendered Output |
-|-|-|-|
+|---|---|---|
 | `Heading level 1 ===` | `<h1>Heading level 1</h1>` | <h1>Heading level 1</h1> |
 | `## Heading level 2 ---` | `<h2>Heading level 2</h2>` | <h2>Heading level 1</h2> |
 
@@ -22,7 +22,7 @@
 For compatibility, always put a space between the number sings and the heading name.
 
 | Do this | Don't do this |
-| - | - |
+| --- | --- |
 | # Here's a Heading | #Here's a Heading |
 
 You Shoul also put blanck lines before and after a heading for compatibility.
@@ -48,7 +48,7 @@ Tou can add emphasis by making text bold or italic.
 To bols text, add two asterisks or underscores before and after a word or phrase. To bols the middle of a word for emphasis, add two asterisks without spaces around the letters.
 
 | Markdown | HTML | rendered Output |
-|-|-|-|
+|---|---|---|
 | I just love `**`bold text`**`. | I just love `<strong>`bold text`</strong>`. | I just love **bold text** |
 | I just love `__`bold text`__`. | I just love `<strong>`bold text`</strong>`. | I just love **bold text** |
 | Love`**`is`**`bold. | Love`<strong>`is`</strong>`bold. | Love**is**bold. |
@@ -58,7 +58,7 @@ To bols text, add two asterisks or underscores before and after a word or phrase
 Markdown applications don´t agree on how to handle underscores in the middle of a word. For compatibility, use asterisk to bold the middle of a word for emphasis.
 
 | Do this | Don't do this |
-|-|-|
+|---|---|
 | Love`**`is`**`bold | Love`__`is`__`bold |
 
 ## Italic
@@ -66,7 +66,7 @@ Markdown applications don´t agree on how to handle underscores in the middle of
 To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
 
 | Markdown | HTML | Rendered Output |
-|-|-|-|
+|---|---|---|
 | Italicized text is the `*`cat's meow`*`. | Italicized text is the `<em>`cat's meow`</em>`. | Italicized text is the *cat's meow*. |
 | Italicized text is the `_`cat's meow`_`. | Italicized text is the `<em>`cat's meow`</em>`. | Italicized text is the *cat's meow*. |
 | A`*`cat`*`meow. | A`<em>`cat`</em>`meow. | A*cat*meow. |
@@ -76,7 +76,7 @@ To italicize text, add one asterisk or underscore before and after a word or phr
 Markdown applications don't agree on how to handle undescores in the middle of a word. For compatibility, use asterisk to italicize the middle of a word for emphasis.
 
 | [x] Do this | [] Don't do this |
-|-|-|
+|---|---|
 | A`*`cat`*`meow | A`_`cat`_`meow |
 
 ## Bold and Italic
@@ -84,7 +84,7 @@ Markdown applications don't agree on how to handle undescores in the middle of a
 To emphasize text with bold and italics at te same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
 
 | Markdown | HTML | Rendered Output |
-|-|-|-|
+|---|---|---|
 | this text is `***`really important`***`.| This text is `<em><strong>`really important`</strong></em>`. | this text is ***really important***. |
 | this text is `___`really important`___`.| This text is `<em><strong>`really important`</strong></em>`. | this text is ***really important***. |
 | this text is `__*`really important`*__`.| This text is `<em><strong>`really important`</strong></em>`. | this text is ***really important***. |
@@ -98,7 +98,7 @@ To emphasize text with bold and italics at te same time, add three asterisks or 
 Markdown applications don't agreee on how to handle underscores in the middle of a word. For compatibility, use asterisk to bold and italicize the middle of a word for emphasis.
 
 | [x] Do this | [] Don't do this |
-|-|-|
+|---|---|
 | This is really`***`very`***` important text. | This is really`___`very`___`important text. |
 
 ## Blockquotes
@@ -148,7 +148,7 @@ Blockquotes can contain other Markdown formatted elemnts. Nota all elements can 
 For compatibility, put blank lines vefore and after blockquotes.
 
 | [x] Do this | [] Don't do this |
-|-|-|
+|---|---|
 | Try to put a blank line before ... | Without black lines, this might not loock right. > This is a blockquote Don't do this! |
 |   
 | >This is a blockquote  |
@@ -164,7 +164,7 @@ Yout can organize items into ordered and unordered lists.
 To create an ordered list, add line items with number followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one.
 
 | Markdown | HTML | Render Output |
-|-|-|-|
+|---|---|---|
 | 1. First item | `<ol> <li>First item</li> </ol>` | 1. First item |
 
 Indented
@@ -179,7 +179,7 @@ Indented
 CommonMark and a few other lightweight markup languages let you use a parenthesis ()) as a delimiter (e.g., 1) First item), but no tall Markdown applications support this, so it isn't a great option from a compatibility perspective. For compatibility, use periods only.
 
 | [x] Do this | [] Don't do this |
-|-|-|
+|---|---|
 | 1. fisrt item | 1) First item |
 
 ## Unordered Lists
@@ -187,7 +187,7 @@ CommonMark and a few other lightweight markup languages let you use a parenthesi
 To create an unordered list, add dashes (-), asterisk (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
 
 | Markdown | HTML | Rendered Output |
-|-|-|-|
+|---|---|---|
 | `-` First item | `<ul> <li>`First item`</li> </ul>` | <ul> <li>First item</li> </ul> |
 | `*` First item | `<ul> <li>`First item`</li> </ul>` | <ul> <li>First item</li> </ul> |
 | `+` First item | `<ul> <li>`First item`</li> </ul>` | <ul> <li>First item</li> </ul> |
@@ -202,7 +202,7 @@ Indented
 If you need to start an unordered list item with a number followed by a period, you can use a backslah (\) to scape the period.
 
 | Markdown | HTML | Rendered Output |
-|-|-|-|
+|---|---|---|
 | - 1968\. A great year! | `<ul> <li>`1968. A great year!`</li> </ul>` | - 1968\. A great year! |
 
 ## Unordered List Best Practices
@@ -210,7 +210,7 @@ If you need to start an unordered list item with a number followed by a period, 
 Markwoen applications don't agrre on how to handle different delimiters in the same list. For compatibility, don't mix and match delimiters in the same list ---- pick one and stick with it.
 
 | [x] Do this | [] Don't do this |
-|-|-|
+|---|---|
 | - First item | - First item |
 | - Second item | * Second item |
 | - Third item| + Third item|
@@ -278,7 +278,7 @@ You can nest an unordered list in an ordered list, or vice versa.
 To denote a word or phrase as code, enclose it in backticks (`).
 
 | Markdown | HTML | Rendered Output |
-|-|-|-|
+|---|---|---|
 | At the command prompt, type `nano`. | At the command prompt, type `<code>`nano`</code>`. | At the command prompt, type `none`. |
 
 ## Escaping Backticks
@@ -286,7 +286,7 @@ To denote a word or phrase as code, enclose it in backticks (`).
 If the word phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (``).
 
 | Markdown | HTML | Rendered Output |
-|-|-|-|
+|---|---|---|
 | `` Use `code` in your Markdown file. `` | <code>Use `code` in your Markdown file.</code> | Use `code` in your Markdown file. |
 
 ## Code Blocks
@@ -314,7 +314,7 @@ ___
 For compatibility, put blank lines before and after horixontal rules.
 
 | [x] Do this | [] Don't do this |
-|-|-|
+|---|---|
 | Try to put a blank line before... | Without blank lines, this would be a heading.|
 | | --- |
 | --- | Don't do this!|
@@ -402,14 +402,14 @@ eat: it was a [hobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobb
 Markdown applications don't agreee on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with %20. Alternatively, if your Markdown application support HTML, you coul use the a HTML tag.
 
 | [x] Do this | [] Don't do this |
-|-|-|
+|---|---|
 | `[link](https://www.example.com/my%20great%20page)` | `[link](https://www.example.com/my great page)` |
 | `<a href="https://www.example.com/my great page">link</a>` | |
 
 Parentheses in the middle of a URL can also be problematic. For compatibility, try to URL encode the opening parenthesis (() with %28 and the closing parenthesis()) with %29. Alternatively, if your Makdown application supports HTML, you could use the a HTML tag.
 
 | [x] Do this | [] Don't do this |
-|-|-|
+|---|---|
 | `[a novel](https://en.wikipedia.org/wiki/The_Milagro_Beanfiel_War_%28novel%29)` | `[a novel](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel))` |
 | `<a href="https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel)">a novel</a>` | |
 
@@ -436,7 +436,7 @@ To display a literal character that would otherwise be used to format texte in a
 Yo can use a backslash to escape the following characters.
 
 | | |
-|-|-|
+|---|---|
 | `\` | backslash |
 | ` | backtick (see also escaping backticks in code) |
 | `*` | asterisk |
