@@ -25,4 +25,3 @@ Cada carpeta representa un lenguaje o tecnología. Dentro de cada una, puedes en
 |   |__ flexbox-grid
 
 ```
-adfafasdfadfad
