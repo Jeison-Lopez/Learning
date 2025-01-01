@@ -25,4 +25,4 @@ Cada carpeta representa un lenguaje o tecnología. Dentro de cada una, puedes en
 |   |__ flexbox-grid
 
 ```
-.
+. $ GIT_COMMITER_DATE="2024-12-30 20:00:00" git commit --date="2024-12-30 20:00:00"
